@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/styles/style.css">
+    <title>Leaderboard API</title>
+  </head>
+  <body>
+    <section class="header">
+      <div class="title-header">
+        <h1 class="titleI">Leaderboard</h1>
+      </div>
+    </section>
+
+    <section class="container">
+      <article class="dataList">
+        <div class="recent">
+          <h1 class="titleII">Recent score</h1>
+          <div class="refresh-data">
+            <button type="submit" id="btnRefresher">Refresh</button>
+          </div>
+        </div>
+        <div id="data"></div>
+      </article>
+      
+      <article class="userInput">
+        <h1 class="titleII">Add your score</h1>
+
+        <input type="text" id="inputKey" placeholder="Your name" /><br />
+        <input type="text" id="inputValue" placeholder="Your score" /><br />
+        <button type="submit" id="btnSubmit">Submit</button>
+      </article>
+    </section>
+  </body>
+</html>
