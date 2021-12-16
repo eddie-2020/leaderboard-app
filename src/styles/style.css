@@ -50,6 +50,7 @@ body {
   font-family: cursive;
   font-size: 15px;
 }
+
 .dataElement:nth-last-of-type(odd) {
   background-color: #efefef;
 }
@@ -69,5 +70,3 @@ body {
   cursor: pointer;
   box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.8);
 }
-
-/*# sourceMappingURL=style.css.map */

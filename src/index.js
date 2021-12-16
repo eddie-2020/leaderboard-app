@@ -18,7 +18,7 @@ const renderDataBoard = async () => {
 const createNewGame = async () => {
   await sendData();
   renderDataBoard();
-}
+};
 createNewGame();
 
 refresher.addEventListener('click', () => {
@@ -30,6 +30,6 @@ btnInsert.addEventListener('click', async (e) => {
   e.preventDefault();
   await sendScore();
   inputKey.value = '';
-  inputValue.value ='';
+  inputValue.value = '';
 });
 renderDataBoard();
