@@ -1,5 +1,5 @@
 body {
-  background-color: #efefef;
+  background-color: #fff;
   font-family: cursive;
 }
 
@@ -11,8 +11,14 @@ body {
 
 .recent {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  font-family: cursive;
+  width: 100%;
 }
+ .titleII {
+   font-size: 15px;
+   margin-top: 25px;
+ }
 
 .refresh-data {
   padding: 20px;
@@ -35,6 +41,17 @@ body {
 
 #data {
   border: 2px solid #333;
+  width: 225px;
+}
+
+.dataElement {
+  padding: 10px;
+  font-family: cursive;
+  font-size: 15px;
+
+  &:nth-last-of-type(odd){
+    background-color: #efefef;
+  }
 }
 
 .dataOutput {

@@ -1,25 +1,35 @@
+import { sendData, sendScore, getData } from './API';
+
 const inputKey = document.getElementById('inputKey');
 const inputValue = document.getElementById('inputValue');
 const btnInsert = document.getElementById('btnSubmit');
+const lsOutput = document.getElementById('data');
+const refresher = document.getElementById('btnRefresher');
 
-btnInsert.onclick = () => {
-  const key = inputKey.value;
-  const { value } = inputValue;
-
-  if (key && value) {
-    localStorage.setItem(key, value);
-  }
+const renderDataBoard = async () => {
+  const score = await getData();
+  lsOutput.innerHTML = '';
+  score.forEach((item) => {
+    const newListData = `<li class='dataElement'> ${item.user} : ${item.score} </li><br/>`;
+    lsOutput.innerHTML += newListData;
+  });
 };
 
-for (let i = 0; i < localStorage.length; i += 1) {
-  const key = localStorage.key(i);
-  const value = localStorage.getItem(key);
-
-  const lsOutput = document.getElementById('data');
-
-  const list = document.createElement('li');
-  list.className = 'dataList';
-  list.innerHTML += `${key} : ${value}</br>`;
-
-  lsOutput.appendChild(list);
+const createNewGame = async () => {
+  await sendData();
+  renderDataBoard();
 }
+createNewGame();
+
+refresher.addEventListener('click', () => {
+  lsOutput.innerHTML = '';
+  renderDataBoard();
+});
+
+btnInsert.addEventListener('click', async (e) => {
+  e.preventDefault();
+  await sendScore();
+  inputKey.value = '';
+  inputValue.value ='';
+});
+renderDataBoard();
