@@ -1,0 +1,56 @@
+body {
+  font-family: cursive;
+  background-color: #fff;
+}
+body .title-header {
+  margin-right: auto;
+}
+body .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+body .container .dataList .recent {
+  display: flex;
+  justify-content: space-evenly;
+}
+body .container .dataList .recent .refresh-data {
+  padding: 20px;
+}
+body .container .dataList .recent .refresh-data #btnRefresher {
+  padding: 5px;
+  cursor: pointer;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.8);
+}
+body .container .dataList .itemData {
+  padding: 10px;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+body .container .dataList .itemData {
+  list-style-type: none;
+  width: 200px;
+}
+body .container .dataList .itemData:nth-last-of-type(odd) {
+  background-color: #efefef;
+}
+body .container .dataList #data {
+  border: 2px solid #333;
+}
+body .container .dataList .dataOutput {
+  padding: 30px;
+}
+body .container .userInput #inputKey,
+body .container .userInput #inputValue {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+body .container .userInput #btnSubmit {
+  padding: 5px;
+  cursor: pointer;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.8);
+  color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */
