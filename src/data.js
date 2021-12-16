@@ -1,23 +1,23 @@
 const data = [
   {
-    name: 'Edward',
-    score: 80,
+    user: 'Edward',
+    score: 80
   },
   {
-    name: 'Yara',
-    score: 100,
+    user: 'Yara',
+    score: 100
   },
   {
-    name: 'Joe',
-    score: 60,
+    user: 'Joe',
+    score: 60
   },
   {
-    name: 'Ray',
-    score: 40,
+    user: 'Ray',
+    score: 40
   },
   {
-    name: 'Samuel',
-    score: 20,
+    user: 'Samuel',
+    score: 20
   },
 ];
 
