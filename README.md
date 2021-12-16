@@ -24,7 +24,7 @@ Deployment: Run index.html on your local server.
 Live Demo Link:
 # Authors
 
-GitHub: https://github.com/oluyaratosin123
+GitHub: @oluyaratosin123
 LinkedIn: https://www.linkedin.com/in/edward-oluyara-708b88215/
 
 
