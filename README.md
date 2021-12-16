@@ -8,6 +8,7 @@
   2. CSS
   3. Linters (Webhint, Stylelint, Lighthouse).
   4. Webpack Module Bundler.
+
   5.Javascript
 
 # Getting Started
