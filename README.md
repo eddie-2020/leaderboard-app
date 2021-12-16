@@ -25,7 +25,7 @@ Live Demo Link:
 # Authors
 
 GitHub: @oluyaratosin123
-LinkedIn: Oluyara Edward
+LinkedIn: https://www.linkedin.com/in/edward-oluyara-708b88215/
 
 Contributions, issues, and feature requests are welcome!
 
