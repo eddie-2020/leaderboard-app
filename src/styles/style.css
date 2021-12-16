@@ -1,0 +1,56 @@
+body {
+  background-color: #efefef;
+  font-family: cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.recent {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.refresh-data {
+  padding: 20px;
+}
+
+#btnRefresher {
+  padding: 5px;
+  cursor: pointer;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.8);
+}
+
+.dataList {
+  padding: 10px;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  list-style-type: none;
+  width: 200px;
+}
+
+#data {
+  border: 2px solid #333;
+}
+
+.dataOutput {
+  padding: 30px;
+}
+
+#inputKey,
+#inputValue {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+#btnSubmit {
+  padding: 5px;
+  cursor: pointer;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.8);
+}
+
+/*# sourceMappingURL=style.css.map */
