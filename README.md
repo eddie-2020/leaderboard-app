@@ -1,7 +1,9 @@
 # Leaderboard-Setup-Project
- This is a Leaderboard API app that stores users score
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Additional description about the project and its features.
+This is a Leaderboard API app that stores users score
+![](leaderboardappsnapshot.PNG)
 
 # Built With
   1. HTML
