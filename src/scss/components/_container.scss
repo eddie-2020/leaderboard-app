@@ -23,6 +23,7 @@ body {
 .titleI {
   width: 150px;
   font-size: 25px;
+
   &:hover {
     transform: translate(40px);
     background-color: #17a2b8;
@@ -44,7 +45,6 @@ body {
 }
 
 #btnRefresher {
-  padding: 5px;
   cursor: pointer;
   background-color: #28a745;
   color: #fff;
@@ -62,7 +62,6 @@ body {
 }
 
 .dataList {
-  
   font-family: sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -96,7 +95,6 @@ body {
 }
 
 #btnSubmit {
-  padding: 5px;
   cursor: pointer;
   background-color: #007bff;
   border: none;

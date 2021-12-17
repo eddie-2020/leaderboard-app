@@ -24,6 +24,7 @@ body {
   width: 150px;
   font-size: 25px;
 }
+
 .titleI:hover {
   transform: translate(40px);
   background-color: #17a2b8;
@@ -44,7 +45,6 @@ body {
 }
 
 #btnRefresher {
-  padding: 5px;
   cursor: pointer;
   background-color: #28a745;
   color: #fff;
@@ -56,6 +56,7 @@ body {
   box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.3);
   transition: 1s;
 }
+
 #btnRefresher:hover {
   background-color: #dc3545;
 }
@@ -78,6 +79,7 @@ body {
   font-family: cursive;
   font-size: 15px;
 }
+
 .dataElement:nth-last-of-type(odd) {
   background-color: #e9ecef;
 }
@@ -93,7 +95,6 @@ body {
 }
 
 #btnSubmit {
-  padding: 5px;
   cursor: pointer;
   background-color: #007bff;
   border: none;
@@ -105,8 +106,7 @@ body {
   box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.4);
   transition: 1s;
 }
+
 #btnSubmit:hover {
   background-color: #28a745;
 }
-
-/*# sourceMappingURL=style.css.map */
