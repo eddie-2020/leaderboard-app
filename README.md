@@ -21,12 +21,11 @@ Run tests: Run syntax tests with the use of the npx commands given in the linter
 Deployment: Run index.html on your local server.
 
 # Live Version
-Live Demo Link:
+Live Demo Link: 
 # Authors
 
 GitHub: https://github.com/oluyaratosin123
 LinkedIn: https://www.linkedin.com/in/edward-oluyara-708b88215/
-
 
 Contributions, issues, and feature requests are welcome!
 
